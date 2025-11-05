@@ -10,6 +10,6 @@ RUN        apt-get update -yqq \
 RUN        curl -fsSL https://github.com/luvit/lit/raw/master/get-lit.sh | sh
 RUN        mv luvit /usr/bin && mv luvi /usr/bin && mv lit /usr/bin
 
-COPY       web.lua /
+COPY       server.lua /
 
-CMD        ["luvit","web.lua"]
+CMD        ["luvit","server.lua"]
