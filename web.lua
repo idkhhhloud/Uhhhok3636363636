@@ -10,7 +10,7 @@ function onRequest(req, res)
 		print(header[1].." = "..header[2])
 	end
 	print("\n")
-	local str = '{"value":11110000}'
+	local str = '{"value":11011011}'
 	res:writeHead(200,{
 		["Content-Length"] = #str,
 		["Content-Type"] = "application/json"
