@@ -23,7 +23,7 @@ function onRequest(req, res)
 
             -- when Roblox transmits input data (POST)
             -- this is the "received POST" output value
-            responseValue = "11111111"  -- 👈 can be a different 8-bit value if needed
+            responseValue = "11111110"  -- 👈 can be a different 8-bit value if needed
         end
 
         -- Build JSON response
